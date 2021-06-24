@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  hyacinth.grpcdemo.client:
+    image: ${DOCKER_REGISTRY-}hyacinthgrpcdemoclient
+    build:
+      context: .
+      dockerfile: Hyacinth.GrpcDemo.Client/Dockerfile
+
+  hyacinth.grpcdemo.userserver:
+    image: ${DOCKER_REGISTRY-}hyacinthgrpcdemouserserver
+    build:
+      context: .
+      dockerfile: Hyacinth.GrpcDemo.UserServer/Dockerfile
+
+  hyacinth.grpcdemo.lessonserver:
+    image: ${DOCKER_REGISTRY-}hyacinthgrpcdemolessonserver
+    build:
+      context: .
+      dockerfile: Hyacinth.GrpcDemo.LessonServer/Dockerfile

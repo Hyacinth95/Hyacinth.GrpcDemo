@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "Hyacinth.GrpcDemo.LessonServer";
+
+package lesson;
+
+service Lesson {
+  rpc FindLesson (LessonRequest) returns (LessonReply);
+}
+
+message	LessonRequest {
+	int32 Id = 1;
+}
+
+message LessonReply {
+	LessonModel Lesson = 1;
+	message LessonModel{
+		int32 Id = 1;
+		string Name = 2;
+		string Remark = 3;
+	}
+}

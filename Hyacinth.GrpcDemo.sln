@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyacinth.GrpcDemo.UserServer", "Hyacinth.GrpcDemo.UserServer\Hyacinth.GrpcDemo.UserServer.csproj", "{F3F6B64E-764F-4951-B6F4-19722CF25807}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyacinth.GrpcDemo.Client", "Hyacinth.GrpcDemo.Client\Hyacinth.GrpcDemo.Client.csproj", "{36ADCBDE-3929-4630-8A18-79A2D644DD8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hyacinth.GrpcDemo.LessonServer", "Hyacinth.GrpcDemo.LessonServer\Hyacinth.GrpcDemo.LessonServer.csproj", "{CF4C4941-6740-45B1-B912-9DA33717F049}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A9C9ACEE-3361-4CF0-9475-F792282FF41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hyacinth.GrpcDemo.Framework", "Hyacinth.GrpcDemo.Framework\Hyacinth.GrpcDemo.Framework.csproj", "{41916F5F-1999-4980-9940-3095D6BB7ED4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F6B64E-764F-4951-B6F4-19722CF25807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F6B64E-764F-4951-B6F4-19722CF25807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F6B64E-764F-4951-B6F4-19722CF25807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F6B64E-764F-4951-B6F4-19722CF25807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36ADCBDE-3929-4630-8A18-79A2D644DD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36ADCBDE-3929-4630-8A18-79A2D644DD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36ADCBDE-3929-4630-8A18-79A2D644DD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36ADCBDE-3929-4630-8A18-79A2D644DD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4C4941-6740-45B1-B912-9DA33717F049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4C4941-6740-45B1-B912-9DA33717F049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4C4941-6740-45B1-B912-9DA33717F049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4C4941-6740-45B1-B912-9DA33717F049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C9ACEE-3361-4CF0-9475-F792282FF41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C9ACEE-3361-4CF0-9475-F792282FF41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C9ACEE-3361-4CF0-9475-F792282FF41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C9ACEE-3361-4CF0-9475-F792282FF41B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41916F5F-1999-4980-9940-3095D6BB7ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41916F5F-1999-4980-9940-3095D6BB7ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41916F5F-1999-4980-9940-3095D6BB7ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41916F5F-1999-4980-9940-3095D6BB7ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B78E87B-EDBF-4577-9C7A-869759F96C90}
+	EndGlobalSection
+EndGlobal
